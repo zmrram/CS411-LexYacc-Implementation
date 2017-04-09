@@ -1,0 +1,15 @@
+class testRight2 implements HelloWorld{
+	
+	boolean result;
+	
+	int helper() {
+		println("This is a helper function");
+		result = true;
+		while(result) {
+		    println("hello");
+		}
+		return 0;  
+	}
+
+}
+

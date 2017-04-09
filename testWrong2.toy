@@ -1,0 +1,25 @@
+class cs411 {
+	int main() {
+		bool b;
+		string s = "hello world";
+		int a[] = newarray(20, int);
+		b = 8;
+		while(b) {
+			println(s);
+			b = false;
+		}
+		return 0;
+	}
+	void fact(int x) {
+		double number = 2.0;
+		int index = 0;
+		while(index < number) {
+			if(number == 4.0) {
+				println("Shouldnt come here");
+			}else {
+				println("do this");
+			}
+			index = index + 1;
+		}
+	}
+}

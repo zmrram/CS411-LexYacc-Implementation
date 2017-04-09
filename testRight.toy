@@ -1,0 +1,13 @@
+class helloWorld {
+	
+	boolean fact(int i) {
+		return true;
+	}
+
+	int main() {
+		if(fact(10)) {
+			return true;
+		}
+		return false;
+	}
+}
